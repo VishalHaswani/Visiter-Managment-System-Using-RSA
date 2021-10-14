@@ -1,14 +1,14 @@
 # Visiter-Managment-System-Using-RSA
 
 
-#Python Packages Used:
+# Python Packages Used:
   tkinter(In-built)
   smtplib(In-built)
   mysql.connector
   twilio.rest
 
 
-#Working:
+# Working:
 A file Info.txt is created which stores the credentials for accessing the database.
 The MySQL database alredy has information stored about the people living in the appartment complex.
 
@@ -30,13 +30,13 @@ Monthly Routine:
   2. The 2nd part of the Info.txt file is changed in accordance with the new public key of the appartment secretary.
 
 
-#Database Setup:
+# Database Setup:
 1. The "DATABASE.sql" file contanes all the necessary codes for database creation.
 2. Create the database, then create the 2 tables- Details and Variable.
 Note: The deatils table stores the details about the people and the Variable table stores the details about the secretary.
 
 
-#Info.txt setup:
+# Info.txt setup:
 1. Open "Info File Generator.py".
 2. Enter the details asked, but make sure database is setup properly and you have a twilio account setup.
 3. Now the Info.txt file is created.
